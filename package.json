@@ -1,0 +1,28 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "LIRI a simple interface that recieves user input and retrieves data.",
+  "main": "liri.js",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "node-spotify-api": "^1.0.7",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeanMCooper/LIRI-node-app.git"
+  },
+  "keywords": [
+    "LIRI"
+  ],
+  "author": "Sean Cooper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeanMCooper/LIRI-node-app/issues"
+  },
+  "homepage": "https://github.com/SeanMCooper/LIRI-node-app#readme"
+}
