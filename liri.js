@@ -98,12 +98,11 @@ function searchSong(searchValue) {
         errorFunction(err);
         var searchSong = response.tracks.items;
         for (var i = 0; i < searchSong.length; i++) {
-            console.log("\n=============== Spotify Search Result ===============\n");
+            console.log("\n--------------Spotify Search----------------\n");
             console.log(("Artist: " + searchSong[i].artists[0].name));
             console.log(("Song: " + searchSong[i].name));
             console.log(("Album: " + searchSong[i].album.name));
             console.log(("URL:" + searchSong[i].preview_url));
-            console.log("\n=========================================================\n");
         }
     })
 };
